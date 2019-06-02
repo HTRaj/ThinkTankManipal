@@ -1,0 +1,28 @@
+.heading {
+    margin-top: 70px;
+    margin-bottom: 90px;
+}
+
+.heading .head_heading h1 {
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.heading .head_heading p {
+    margin-top: 0rem;
+    line-height: 3.7777rem;
+    margin-bottom: 2.7777rem !important;
+    word-spacing: 0.5px;
+    letter-spacing: 2px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 20px;
+}
+
+@media(max-width:500px) {
+    .heading .head_heading p {
+        line-height: 3.7777rem;
+        word-spacing: 0.5px;
+        letter-spacing: 2px;
+        font: normal 16px 'Pangolin';
+    }
+}

@@ -1,0 +1,112 @@
+body,
+html {
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.wholeContainer {
+    margin-top: 60px;
+}
+
+.container-1 {
+    background-color: rgb(249, 153, 27);
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.container-1 img {
+    height: 500px;
+    width: 100%;
+    margin: 0;
+}
+
+.container-text {
+    padding-top: 7%;
+}
+
+.container-text h3 {
+    font-size: 40px;
+    color: black;
+    padding: 0;
+    text-decoration: none;
+}
+
+.container-text p {
+    color: white;
+    line-height: 25px;
+    font-size: 18px;
+}
+
+.container-text button {
+    margin-top: 10px;
+    background: transparent;
+    border: 2px solid white;
+    border-radius: 0;
+    margin-left: 40%;
+}
+
+.container-2 {
+    background-color: rgb(255, 100, 65);
+    margin: 0;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.container-2 img {
+    height: 500px;
+    width: 100%;
+    margin: 0;
+}
+
+.btn a {
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width:940px) {
+    .wholeContainer {
+        margin-top: 40px;
+    }
+    .container-1 img {
+        height: 400px;
+        width: 100%;
+        margin: 0;
+    }
+    .container-text {
+        padding-top: 7%;
+    }
+}
+
+@media (max-width:500px) {
+    .wholeContainer {
+        margin-top: 40px;
+    }
+    .container-1 {
+        height: 100vh;
+    }
+    .container-1 img {
+        height: 200px;
+        width: 100%;
+        margin: 0;
+    }
+    .container-2 {
+        height: 100vh;
+    }
+    .container-2 img {
+        height: 200px;
+        width: 100%;
+        margin: 0;
+    }
+    .container-text h3 {
+        font-size: 20px;
+    }
+    .container-text p {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    .wholeContainer button {
+        padding: 10px;
+        margin-left: 35%;
+    }
+}
